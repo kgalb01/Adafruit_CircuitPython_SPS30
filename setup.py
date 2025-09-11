@@ -57,5 +57,5 @@ setup(
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
     #       CHANGE `py_modules=['...']` TO `packages=['...']`
-    py_modules=["adafruit_sps30"],
+    packages=["adafruit_sps30"],
 )
