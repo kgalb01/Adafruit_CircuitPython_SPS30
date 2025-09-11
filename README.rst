@@ -72,7 +72,7 @@ Usage Example
 
     while True:
         aqdata = sps.read()
-        print("PM2.5: {:d}".format(aqdata["pm25 standard"]))
+        print("PM2.5: {:.1f}".format(aqdata["pm25 standard"]))
         time.sleep(1)
 
 Contributing
